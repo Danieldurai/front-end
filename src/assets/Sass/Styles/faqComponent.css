@@ -1,0 +1,25 @@
+#faq-styles h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #001973;
+}
+#faq-styles .accordion-custom i, #faq-styles .accordion-custom span {
+  vertical-align: middle;
+}
+#faq-styles .accordion-custom span {
+  margin: 0 0.5rem;
+}
+#faq-styles .p-accordion-header a {
+  padding: 1.3rem;
+}
+#faq-styles .faq-container {
+  width: 85%;
+  margin: 0 auto;
+}
+#faq-styles .p-accordion .p-accordion-header .p-accordion-header-link .p-accordion-toggle-icon {
+  position: absolute;
+  right: 0;
+}
+#faq-styles .p-accordion .p-accordion-tab .p-accordion-header .p-accordion-header-link {
+  margin: 0.5rem 0;
+}/*# sourceMappingURL=faqComponent.css.map */

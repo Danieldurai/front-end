@@ -1,0 +1,77 @@
+#hero-styles{
+    color:#fff;
+    background-image: url("../../img/hero-bg.png");
+    min-height: 100vh;
+    background-color: #0e1d34;
+    background-size: cover;
+
+    img{
+        max-width: 100%;
+    }
+
+    .grid-container
+    {
+        display: flex;
+        
+        justify-content: space-between;
+        width: 85%;
+        margin: 0 auto;
+        padding: 8rem 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .hero-title{
+        font-size: 3em;
+    }
+
+    .hero-description{
+        padding: 2rem 0;
+        line-height: 1.5rem;
+    }
+
+    .hero-counts{
+        padding: 2rem 0;
+        width: 85%;
+        margin: 0 auto;
+        div h1{
+            padding: 1rem 0;
+            position: relative;
+        }   
+        div h1::after{
+            content: "";
+            display: block;
+            width: 30%; /* Adjust the width to control the length of the underline */
+            height: 2px; /* Adjust the height/thickness of the underline */
+            background-color: #0d42ff;; /* Adjust the color of the underline */
+            position: absolute;
+            bottom: 0;
+            left: 50%; /* Adjust the left position to center the underline */
+            transform: translateX(-50%);
+        }
+        div h5{
+            padding: 1rem 0;
+        }
+    }
+
+    .hero-counts div{
+        text-align: center;
+    }
+
+    @media(max-width:768px){   
+         .grid-container{
+            
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 85%;
+        margin: 0 auto;
+        padding: 8rem 1rem;
+        padding-bottom: 1rem;
+        }
+
+        .p-inputtext-lg{
+            margin-bottom: 1rem;
+        }
+    }
+    
+}

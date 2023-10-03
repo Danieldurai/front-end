@@ -1,0 +1,29 @@
+#sidebar-styles {
+  position: fixed;
+  top: 5rem;
+  left: 1rem;
+  background: transparent;
+  z-index: 3000;
+}
+#sidebar-styles .p-sidebar .p-sidebar-header {
+  justify-content: space-between;
+}
+#sidebar-styles .p-submenu-header:empty {
+  display: none;
+}
+#sidebar-styles .p-menu {
+  width: 100%;
+  color: #fff;
+  border: 0;
+  padding: 0;
+}
+#sidebar-styles .p-menu .p-submenu-header {
+  color: black;
+}
+#sidebar-styles .p-panelmenu .p-panelmenu-header > a {
+  border: 0;
+}
+#sidebar-styles .p-panelmenu .p-panelmenu-header > a .p-panelmenu-icon {
+  position: absolute;
+  right: 0;
+}/*# sourceMappingURL=sidebar.css.map */

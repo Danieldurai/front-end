@@ -1,0 +1,40 @@
+#middle-component-style{
+    img{
+        max-width: 100%;
+    }
+
+    .grid-container{
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description-title{
+        padding: 0.5rem;
+    }
+
+    .description-subtitle{
+        padding: 0.5rem;
+    }
+
+    .description-paragraph{
+        padding: 0.5rem;
+    }
+
+    .description-list{
+        padding: 0.5rem;
+        list-style-type: none;
+    }
+
+    ul{
+        line-height: 1.5rem;
+    }
+}

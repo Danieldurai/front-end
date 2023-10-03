@@ -1,0 +1,15 @@
+#filler-container-styles{
+    padding: 2rem 0;
+    .grid-container{
+        margin: 0 auto;
+        width: 85%;
+        padding: 1rem;
+    }
+
+    
+    @media(max-width:768px){
+        .grid-container{
+            width: 100%;  
+        } 
+    }
+}

@@ -1,0 +1,31 @@
+#middle-component-style img {
+  max-width: 100%;
+}
+#middle-component-style .grid-container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#middle-component-style .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#middle-component-style .description-title {
+  padding: 0.5rem;
+}
+#middle-component-style .description-subtitle {
+  padding: 0.5rem;
+}
+#middle-component-style .description-paragraph {
+  padding: 0.5rem;
+}
+#middle-component-style .description-list {
+  padding: 0.5rem;
+  list-style-type: none;
+}
+#middle-component-style ul {
+  line-height: 1.5rem;
+}/*# sourceMappingURL=MiddleComponentStyle.css.map */

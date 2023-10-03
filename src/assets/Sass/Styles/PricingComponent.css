@@ -1,0 +1,28 @@
+#pricing-component-styles .price-per-month {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+#pricing-component-styles li {
+  line-height: 30px;
+  margin: 0.5rem 0;
+}
+#pricing-component-styles .p-card-header {
+  padding: 1rem;
+}
+#pricing-component-styles .price-per-month h1 {
+  padding: 0 0 0 1rem;
+}
+#pricing-component-styles .strike-text {
+  text-decoration: line-through;
+}
+#pricing-component-styles .dolar-sign {
+  position: absolute;
+  top: 0;
+}
+#pricing-component-styles ul {
+  list-style-type: none;
+}
+#pricing-component-styles .check-mark-image {
+  max-width: 16px;
+}/*# sourceMappingURL=PricingComponent.css.map */

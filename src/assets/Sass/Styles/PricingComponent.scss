@@ -1,0 +1,40 @@
+#pricing-component-styles{
+    .price-per-month{
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+    }
+
+    li{
+        line-height: 30px;
+        margin: 0.5rem 0;
+    }
+
+    .p-card-header{
+        padding: 1rem;
+    }
+
+    .price-per-month h1{
+        padding: 0 0 0 1rem;
+    }
+
+    .strike-text{
+        text-decoration: line-through;
+    }
+
+    .dolar-sign{
+        position: absolute;
+        top:0
+    }
+
+
+    ul{
+        list-style-type: none;
+    }
+
+   
+
+    .check-mark-image{
+        max-width: 16px;
+    }
+}

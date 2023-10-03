@@ -1,0 +1,37 @@
+#faq-styles{
+    h1{
+        text-align: center;
+        margin-bottom: 1rem;
+        color:#001973;   
+    }
+    .accordion-custom {
+        i, span {
+            vertical-align: middle;
+        }
+    
+        span {
+            margin: 0 .5rem;
+        }
+    }
+
+        .p-accordion-header a{
+            padding: 1.3rem;
+        }
+    
+
+
+
+    .faq-container{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .p-accordion .p-accordion-header .p-accordion-header-link .p-accordion-toggle-icon{
+        position: absolute;
+        right: 0;
+    }
+
+    .p-accordion .p-accordion-tab .p-accordion-header .p-accordion-header-link{
+        margin: 0.5rem 0;
+    }
+}

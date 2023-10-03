@@ -1,0 +1,10 @@
+#card-styles .p-card-header {
+  display: flex;
+  overflow: hidden;
+}
+#card-styles .scale-up-element {
+  transition: transform 0.3s ease; /* Add a smooth transition for the scaling effect */
+}
+#card-styles .scale-up-element:hover {
+  transform: scale(1.1); /* Scale up by 10% when hovered */
+}/*# sourceMappingURL=CardStyles.css.map */

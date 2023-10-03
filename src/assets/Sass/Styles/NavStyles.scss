@@ -1,0 +1,73 @@
+#nav-styles{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    .p-menubar{
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        background: transparent !important;
+        border: 0 !important;
+    }
+
+    .p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link{
+        background: transparent;
+        .p-menuitem-text{
+            color: gray;
+        }
+    }
+
+    .custom-button{
+        background: #0d42ff;
+        border-radius: 0.3rem;
+        .p-menuitem-text{
+            color : #fff;
+        }
+    }
+
+    .p-menuitem-text{
+        color: rgba(255, 255, 255, 0.6);;
+    }
+
+   
+    .p-submenu-list .p-menuitem-text{
+        color: black;
+    }
+
+    .p-submenu-list .p-menuitem-link:hover{
+        .p-menuitem-text{
+            color: black;
+        }
+    }
+
+    
+   
+    .p-menuitem-link:hover {
+        background: transparent;
+    }
+
+    .p-menuitem-link:hover .p-menuitem-text{
+        color: #fff;
+    }
+    
+    .p-menubar h1{
+       color: #fff;
+    }
+    .nav-container{
+        padding: 0.5rem;
+       background: rgba(14, 29, 52, 0.9);
+    }
+    
+    .p-menubar .p-menubar-end {
+        margin-left: 0;
+    }
+    
+ @media (max-width : 956px){
+    .p-menubar-root-list .p-menuitem-text{
+        color: black;
+    }
+ }   
+    
+  
+}

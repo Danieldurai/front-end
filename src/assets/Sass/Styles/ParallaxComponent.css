@@ -1,0 +1,38 @@
+#parallax-styles .background-section {
+  background-image: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url(../../img/cta-bg.jpg);
+  background-repeat: no-repeat;
+  height: 60vh;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+#parallax-styles .content-box {
+  width: 90%;
+  margin: 0 auto;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#parallax-styles .content {
+  text-align: center;
+  width: 63%;
+}
+#parallax-styles .content h1 {
+  padding: 0.5rem 0;
+}
+#parallax-styles .content p {
+  padding: 0.5rem 0;
+  line-height: 1.5rem;
+}
+#parallax-styles .button-spl {
+  padding: 0.625rem 2rem;
+  background: transparent;
+  border: 2px solid white;
+  margin: 0.5rem 0;
+  border-radius: 0.3rem;
+}
+#parallax-styles .button-spl:hover {
+  background: #0d42ff;
+  border: 0;
+}/*# sourceMappingURL=ParallaxComponent.css.map */

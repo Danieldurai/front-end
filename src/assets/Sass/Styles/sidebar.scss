@@ -1,0 +1,35 @@
+#sidebar-styles{
+    position: fixed;
+    top:5rem;
+   
+    left: 1rem;
+    background: transparent;
+    z-index: 3000;
+    .p-sidebar .p-sidebar-header{
+        justify-content: space-between;
+    }
+
+    .p-submenu-header:empty{
+        display: none;
+    }
+    .p-menu{
+        width: 100%;
+        color: #fff;
+        border: 0;
+        padding: 0;
+    }
+
+    .p-menu .p-submenu-header{
+        color: black;
+    }
+
+    .p-panelmenu .p-panelmenu-header > a{
+        border: 0;
+    }
+
+    
+    .p-panelmenu .p-panelmenu-header > a .p-panelmenu-icon{
+        position: absolute;
+        right: 0;
+    }
+}

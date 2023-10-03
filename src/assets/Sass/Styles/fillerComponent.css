@@ -1,0 +1,29 @@
+#filler-component-style .filler-wrapper {
+  display: flex;
+}
+#filler-component-style .filler-wrapper:hover i {
+  color: #0d42ff;
+}
+#filler-component-style .filler-wrapper:hover .filler-description h1 {
+  color: #0d42ff;
+}
+#filler-component-style .icon-container i {
+  color: black;
+  font-size: 90px;
+  margin-right: 20px;
+}
+#filler-component-style .filler-description h1 {
+  margin-bottom: 1rem;
+}
+#filler-component-style .filler-description p {
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+#filler-component-style .filler-description a {
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  #filler-component-style .icon-container i {
+    font-size: 40px;
+  }
+}/*# sourceMappingURL=fillerComponent.css.map */

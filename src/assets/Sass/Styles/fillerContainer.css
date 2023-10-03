@@ -1,0 +1,13 @@
+#filler-container-styles {
+  padding: 2rem 0;
+}
+#filler-container-styles .grid-container {
+  margin: 0 auto;
+  width: 85%;
+  padding: 1rem;
+}
+@media (max-width: 768px) {
+  #filler-container-styles .grid-container {
+    width: 100%;
+  }
+}/*# sourceMappingURL=fillerContainer.css.map */

@@ -1,0 +1,40 @@
+#filler-component-style{
+    .filler-wrapper{
+       display: flex;
+    }
+
+    .filler-wrapper:hover{
+        i{
+            color: #0d42ff;
+        }
+        .filler-description h1 {
+            color: #0d42ff;
+        }
+    }
+
+    .icon-container i{
+        color: black;
+        font-size: 90px;
+        margin-right: 20px;
+    }
+
+    .filler-description h1{
+        margin-bottom: 1rem;
+    }
+
+    .filler-description p{
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .filler-description a{
+        text-decoration: none;
+    }
+
+    @media(max-width:768px){
+        .icon-container i{
+            font-size: 40px;
+        }        
+    }
+
+}

@@ -1,0 +1,56 @@
+#nav-styles {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+#nav-styles .p-menubar {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background: transparent !important;
+  border: 0 !important;
+}
+#nav-styles .p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link {
+  background: transparent;
+}
+#nav-styles .p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-text {
+  color: gray;
+}
+#nav-styles .custom-button {
+  background: #0d42ff;
+  border-radius: 0.3rem;
+}
+#nav-styles .custom-button .p-menuitem-text {
+  color: #fff;
+}
+#nav-styles .p-menuitem-text {
+  color: rgba(255, 255, 255, 0.6);
+}
+#nav-styles .p-submenu-list .p-menuitem-text {
+  color: black;
+}
+#nav-styles .p-submenu-list .p-menuitem-link:hover .p-menuitem-text {
+  color: black;
+}
+#nav-styles .p-menuitem-link:hover {
+  background: transparent;
+}
+#nav-styles .p-menuitem-link:hover .p-menuitem-text {
+  color: #fff;
+}
+#nav-styles .p-menubar h1 {
+  color: #fff;
+}
+#nav-styles .nav-container {
+  padding: 0.5rem;
+  background: rgba(14, 29, 52, 0.9);
+}
+#nav-styles .p-menubar .p-menubar-end {
+  margin-left: 0;
+}
+@media (max-width: 956px) {
+  #nav-styles .p-menubar-root-list .p-menuitem-text {
+    color: black;
+  }
+}/*# sourceMappingURL=NavStyles.css.map */

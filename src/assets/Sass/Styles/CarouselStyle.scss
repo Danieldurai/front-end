@@ -1,0 +1,42 @@
+#carousel-style{
+
+    padding: 3rem 0;
+
+    .carousel-container{
+        background-image: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)),url(../../img/testimonials-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .p-carousel-item i{
+        color: yellow;
+    }
+
+    
+    .p-carousel-container{
+        width: 80%;
+        margin: 0 auto;
+        height: 80vh;
+    }
+
+    .p-carousel-item{
+        text-align: center;
+        gap:0.5rem;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+
+    .p-carousel-item h5{
+        color: #aea4a4;
+    }
+
+    .p-carousel-item img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+}
